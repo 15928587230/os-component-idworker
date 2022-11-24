@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+component:
+  idworker:
+    enabled: true
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/segment?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false&nullCatalogMeansCurrent=true&useInformationSchema=false
+    username: root
+    password: qwer1234
