@@ -1,5 +1,6 @@
 package com.os.component.idworker;
 
+import com.os.component.idworker.config.EnableIdWorker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * @author pengjunjie
  */
+@EnableIdWorker
 @SpringBootApplication
 public class OsComponentIdWorkerApplication {
 

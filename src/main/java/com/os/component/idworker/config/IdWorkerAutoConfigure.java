@@ -27,7 +27,8 @@ import java.sql.SQLException;
 @ConditionalOnProperty(
         prefix = "component.idworker",
         name = "enabled",
-        havingValue = "true"
+        havingValue = "true",
+        matchIfMissing = false
 )
 @EnableConfigurationProperties(IdWorkerProperties.class)
 public class IdWorkerAutoConfigure {

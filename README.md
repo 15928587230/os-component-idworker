@@ -30,6 +30,17 @@ component:
     username: root
     password: qwer1234
 ```
+开启IdWorker
+```java
+@EnableIdWorker
+@SpringBootApplication
+public class OsComponentIdWorkerApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(OsComponentIdWorkerApplication.class, args);
+    }
+}
+```
 
 # 三、并发测试
 
